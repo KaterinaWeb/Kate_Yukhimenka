@@ -1,0 +1,45 @@
+p{
+    color: brown;
+}
+div{
+    color: darkblue;
+}
+div code{
+    font-style: italic;
+    color: darkgreen;
+}
+ul li a em{
+    text-decoration: underline;
+    text-shadow: deeppink;
+    color: orangered;
+}
+.b li a{
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+.vip{
+    font-style: italic;
+}
+.vip2{
+    font-weight: bolder;
+    text-decoration: wavy;
+    color: rgb(31, 49, 4);
+}
+.vip3{
+   font-size: xx-large;
+   text-decoration: dashed;
+   font-style: italic;
+   
+}
+.vip4{
+    text-transform: uppercase;
+    font-size: medium;
+    color: rgb(214, 30, 128);
+}
+#test{
+    font-size: smaller;
+}
+
+body{
+    background: aquamarine;
+}
