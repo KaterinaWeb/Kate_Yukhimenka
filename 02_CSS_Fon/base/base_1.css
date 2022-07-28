@@ -1,0 +1,53 @@
+.nine {
+   background: url(cards.7e0a18f0.png) no-repeat -430px -1395px;
+   width: 140px;
+   height: 187px;
+   border: solid black;
+   float: left;
+}
+.queen{
+   background: url(cards.7e0a18f0.png) no-repeat 0 -1795px;
+   width: 140px;
+   height: 187px;
+   border: solid black;
+  float: left;
+         }
+.buba{
+   background: url(cards.7e0a18f0.png) no-repeat -285px -1395px;
+   width: 140px;
+   height: 187px;
+   border: solid black;
+   float: left;
+}
+.tuz{
+   background: url(cards.7e0a18f0.png) no-repeat 0 -2190px;
+   width: 140px;
+   height: 187px;
+   border: solid black;
+   float: left;
+}
+
+.joker{
+   background: url(cards.7e0a18f0.png) no-repeat -285px -2390px;
+   width: 140px;
+   height: 187px;
+   border: solid black;
+   float: left;
+}
+
+#margin{
+ margin: 2% 0 0 -7%;
+}
+#margin2{
+ margin: 4% 0 0 -7%;
+}
+#margin3{
+ margin: 6% 0 0 -7%;
+}
+#margin4{
+ margin: 8% 0 0 -7%;
+}
+
+.clear{
+ clear: left;
+}

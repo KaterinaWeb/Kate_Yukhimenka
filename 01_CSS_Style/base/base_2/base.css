@@ -1,0 +1,18 @@
+  
+.right{
+    text-align: right;
+}
+.family{
+    font-family: 'Bad Script', cursive;
+}
+h3{
+    font-family: 'Bad Script', cursive;
+ margin-left: 20px;
+    text-decoration-line: underline;
+}
+body{
+    text-align: justify;
+}
+p.family span{
+    margin-left: 20px;
+}

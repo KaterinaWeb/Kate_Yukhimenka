@@ -1,0 +1,33 @@
+
+
+    .wrap{
+        background-color: chartreuse;
+    }
+
+    .block{
+        height: 250px;
+        width: 15em;
+        background-color: blueviolet;
+        float: left;
+    }
+
+    .artickle{
+        background-color: aqua;
+        margin-bottom: 2em;
+        margin-left: 15em;
+       padding-bottom: 20px;
+       padding-top: 0.5px;
+    }
+        
+    .clear{
+        clear: both;
+    }
+    .footer{
+        background-color: crimson;
+        
+    }
+    .right{
+        float: right;
+    }
+    
+   
