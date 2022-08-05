@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background: url(food.jpg); 
+       background-size: 100%;
+    background-repeat: no-repeat;}
+
+    ul{
+        list-style: none;
+    }
+    .menu{
+       
+        display: none;
+    }
+    .days li .menu li{
+        background-color: yellow;
+        display: block;
+    }
+    .days{
+        margin-left: 20px;
+    }
+    .days li{
+        height: 35px;
+        width: 150px;
+        background-color: coral;
+        display: inline-block;
+        border: solid gray;
+        text-align: center;
+        font-size: 24px;
+        border-radius: 5px;
+        position: relative;
+        
+    }
+    ul li ul{
+        position: absolute;
+    }
+    .days li:hover .menu{
+        display: block;
+    }
+
+    
+    @media all and (max-width:961px){
+
+    .days li{
+        
+        background-color: rgba(0, 217, 255, 0.774);
+        display:block;
+        border: solid red;
+       
+    }
+    .days li:hover .menu li{
+        display: inline-block;
+       
+    }
+    .menu>li:nth-child(1){
+        left: 150px;
+        top: -30px;}
+    .menu>li:nth-child(2){
+    left:300px; 
+    top: -65px;}
+    .menu>li:nth-child(3){
+    left:450px; 
+    top: -100px;}
+}
+ 
+</style>
+
+</head>
+<body>
+    <ul class="days">
+        <li>Понедельник</li>
+        <li>Вторник</li>
+        <li>Среда
+            <ul class="menu">
+                <li>Завтрак</li>
+                <li>Обед</li>
+                <li>Ужин</li>
+            </ul>
+        </li>
+        <li>Четверг</li>
+        <li>Пятница</li>
+        <li>Суббота</li>
+    </ul>
+
+</body>
+</html>

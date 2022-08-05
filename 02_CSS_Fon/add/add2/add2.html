@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    
+    .wrap{
+        width: 80%;
+        background-color: chartreuse;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .wrap2{
+        flex-direction: column;
+        justify-items: flex-end;
+    }
+
+    .block{
+        flex-basis: 15em;
+        height: 100%;
+        background-color: blueviolet;
+        flex-direction: column;
+    }
+
+    .artickle{
+        background-color: aqua;
+        margin-bottom: 2em;
+        flex-direction: column;
+        
+    }
+    .right{
+        text-align: end;
+        
+    }
+    .footer{
+        width: 80%;
+        background-color: crimson;
+        display: block;
+
+    }
+        
+     
+    
+</style>
+</head>
+<body>
+    <div class="wrap">
+   
+        <div class="block"> <h3> Блок навигации</h3>
+        <ul>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагаться слева</li>
+            <li>Блок навигации наполните контентом достаточным,
+                 чтобы по высоте он начинал захватывать вторую статью, 
+                как показано в данном примере</li>
+    
+        </ul>
+        </div>
+        
+       <div class="wrap2">
+    
+        <div class="artickle"><h3> Статья 1</h3>
+        Размер блока: <br>
+    Занимает всю доступную ширину <br>
+    Должен присутствовать цвет фона <br>
+    Во всех "статьях" сделайте отступ снизу от соседей равным 2em, 
+    при помощи свойства margin-bottom  
+    </div>
+    
+    
+    <div class="artickle"><h3>Статья 2</h3>
+    Размер блока: <br>
+    Занимает всю доступную ширину <br>
+    Должен присутствовать цвет фона <br>
+    Во всех "статьях" сделайте отступ снизу от соседей равным 2em, 
+    при помощи свойства margin-bottom. Картинка вставлена при помощи тега,
+     плавание организовано по правому краю внутри данной статьи для этой картинки. <br>
+    
+     
+     <div class="right"><img src="icon_mail.png" alt="mail"></div>
+     
+    </div>
+    
+    </div>
+   
+    </div>
+    <div class="footer">Нижний блок, подвал. Занимает всю доступную ширину. 
+        Высота определяется помещенным внутрь контентом.</div>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        ul{
+            list-style-image: url(pic/logo-list.jpg);
+        }
+        a.doc:hover{
+            padding: 20px;
+            background: url(pic/logo-doc.jpg) no-repeat right;
+        }
+        a.pdf:hover{
+            padding: 20px;
+            background: url(pic/logo-pdf.png) no-repeat right;
+        }
+        a.zip:hover{
+            padding: 20px;
+            background: url(pic/logo-zip.gif) no-repeat right;
+        }
+        p{
+            border: 1px solid gray;
+            border-radius: 0 15px;
+            padding-bottom: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            
+        }
+        span{
+            padding-left: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2>Форматы файлов.</h2>
+        <p> <span>.DOC </span>или .doc (от англ. <img src="pic/extref.png" alt="extref"> 
+        <a href="https://ru.wikipedia.org/wiki/Doc" target="_blank">document</a>) 
+        — расширение имени файла, используемое для файлов, представляющих 
+        текст, с разметкой или без. Расширение .DOC часто использовалось
+        для обозначения простых текстовых файлов без форматирования, 
+        однако позже стало использоваться для двоичных форматов с разметкой.<br>
+        <a href="files/document.doc">Документ MS Word</a> <img src="pic/logo-doc.jpg" alt="doc">
+        </p>
+
+		<p> <span> Portable</span> Document Format (<img src="pic/extref.png" alt="extref"> 
+        <a href="https://ru.wikipedia.org/wiki/pdf" target="_blank">PDF</a>) — 
+        межплатформенный формат электронных документов, разработанный фирмой
+         Adobe Systems с использованием ряда возможностей языка PostScript.
+		<br>
+        <a href="files/document.pdf">Документ PDF</a> <img src="pic/logo-pdf.png" alt="pdf">
+        </p>
+
+		<p><span> ZIP</span> — популярный формат сжатия данных и архивации файлов. Файл в
+        этом формате обычно имеет расширение <img src="pic/extref.png" alt="extref"> 
+        <a href="https://ru.wikipedia.org/wiki/zip" target="_blank">.zip</a> 
+        и хранит в сжатом или несжатом виде один или несколько файлов, 
+        которые можно из него извлечь путём распаковки с помощью специальной
+         программы.
+		<br>
+        <a href="files/document.zip">Архив</a> <img src="pic/logo-zip.gif" alt="zip">
+        </p>
+        <h3>Это список из файлов</h3>
+        <ul>
+        	<li><a class="doc" href="files/document.doc">Документ MS Word</a></li>
+        	<li><a class="pdf" href="files/document.pdf">Документ PDF</a></li>
+        	<li><a class="zip" href="files/document.zip">Архив</a></li>
+        </ul>
+    
+</body>
+</html>
