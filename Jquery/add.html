@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style>
+    *{
+        margin: 5px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    input{
+        margin-right: 10px;
+    }
+    .result{
+        background-color: green;
+    }
+    .result2{
+        background-color: red;
+    }
+
+</style>
+
+</head>
+<body>
+<h1>Проверка пароля</h1>
+<form action="http://fe.it-academy.by/TestForm.php" name="form1"
+method="post" target="_blank">
+ <fieldset>
+
+    <p>
+        <input type="password" name="password"  required><sup>*</sup> Пароль <br>
+        <input type="password" name="confirm_password"  required><sup>*</sup> Повторите пароль <br>
+    </p>
+
+    <input type="submit">
+ </fieldset>
+
+</form>
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    
+<script>
+    $(document).ready(function(){
+        $('p:first-child').click(function(){
+    $("input[type=password]").addClass('result');
+    })
+    })
+
+    $(document).ready(function(){
+        $('input[name="confirm_password"]').on('keyup', function(e){
+        if($('input[name="password"]').val().trim() === $('input[name="confirm_password"]').val().trim() )
+        {
+            $("input[type=password]").removeClass().addClass('result');
+        }
+        else{
+            $("input[type=password]").removeClass().addClass('result2');
+        } 
+        })
+        })
+          
+
+</script>
+
+
+</body>
+</html>
